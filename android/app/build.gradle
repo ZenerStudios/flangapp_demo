@@ -57,7 +57,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.flangapp_app"
+        applicationId "com.signner.www"
         minSdkVersion 17
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -68,9 +68,9 @@ android {
     signingConfigs {
         release {
             storeFile file("sign/key.jks")
-            storePassword "EMrNEJbNkbPs"
-            keyAlias "tadapp_android_e"
-            keyPassword "EMrNEJbNkbPs"
+            storePassword "iTunes4268"
+            keyAlias "Hylzen"
+            keyPassword "iTunes4268"
         }
     }
 
